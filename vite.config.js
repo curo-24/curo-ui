@@ -180,7 +180,7 @@ const addTransformIndexHtml = {
   },
 };
 
-console.warn = () => {};
+console.warn = () => { };
 
 const logger = createLogger();
 const loggerError = logger.error;
@@ -202,6 +202,7 @@ export default defineConfig({
   ],
   server: {
     port: 3000, // Added port configuration
+    host: '0.0.0.0',
     cors: true,
     headers: {
       "Cross-Origin-Embedder-Policy": "credentialless",
