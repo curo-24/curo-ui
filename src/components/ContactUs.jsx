@@ -3,7 +3,7 @@ import axios from "axios";
 
 // Create Axios instance
 const axiosInstance = axios.create({
-  baseURL: "http://16.171.181.210/",
+  baseURL: "https://curobackend.curo24.com/",
 });
 
 const ContactUs = () => {
